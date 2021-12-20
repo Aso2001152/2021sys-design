@@ -66,7 +66,7 @@ num
 }
 
 
-   d_cart }-|| customer
+   d_cart }-down-|| customer
    d_cart }-o| items
    customer       |o-ri-o{     order
    items          }o--||     category
