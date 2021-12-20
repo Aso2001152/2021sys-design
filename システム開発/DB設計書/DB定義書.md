@@ -18,25 +18,6 @@
 |購入日|purchase_date|date||○||
 |総額|total_price|int(11)||○||
 
-## お知らせテーブル(d_notice)
-
-|和名|属性名(カラム名)|型|PK|NN|FK|
-|---|-----|--|--|--|--|
-|お知らせ番号|notice_code|int(11)|○|○||
-|お知らせ詳細|notice_detail|varchar(200)||○||
-|登録日|reg_date|date||○||
-
-
-## お気に入りテーブル(d_favorite)
-|和名|属性名(カラム名)|型|PK|NN|FK|
-|---|-----|--|--|--|--|
-|顧客番号|customer_code|varchar(50)|○|○|○|
-|商品番号|item_code|int(11)|○|○|○|
-|商品名|item_name|varchar(50)||○||
-|画像ファイル|image|varchar(200)||○||
-|商品詳細|detail|varchar(500)||||
-|価格|price|int(11)||○||
-
 ## カートテーブル(d_cart)
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
@@ -81,18 +62,3 @@
 |削除フラグ|del_flag|int(1)||||
 |登録日|reg_date|date||○||
 
-## 管理者マスタ(m_master)
-|和名|属性名(カラム名)|型|PK|NN|FK|
-|---|-----|--|--|--|--|
-|管理者番号|master_code|int(11)|○|○||
-|パスワード|pass|varchar(50)||○||
-|氏名|name|varchar(20)||○||
-|管理者フラグ|master_flag|int(1)||||
-
-## 画面マスタ(images)
-|和名|属性名(カラム名)|型|PK|NN|FK|
-|---|-----|--|--|--|--|
-|画像番号|id|int(11)|○|○||
-|ファイル名|file_name|varchar(255)||○||
-|登録日|uploaded_on|datetime||○||
-|ステータス|status|enum||○||
