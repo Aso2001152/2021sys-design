@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+.title{
+    text-decoration: none;
+    color:black;
+}
+.btn1-orange {
+    color: #fff;
+    background-color: #eb6100;
+    font-size: 20px;
+    border-radius: 30px 30px 30px 30px;
+    width: 200px; height: 60px;
+}
+.cp_hr01 {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #43a047;
+}
+p{
+    font-size:18px;
+}
+img{
+    width:325px;
+    height:auto;
+}
